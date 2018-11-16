@@ -1,0 +1,11 @@
+* {
+  color:#02acad;
+  font-family:'avenir';
+}
+h2 {
+  color:#ab6800;
+  font-family:'helvetica'
+}
+a, h2 {  height: 40px
+  text-decoration: underline;
+}
