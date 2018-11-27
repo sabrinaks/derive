@@ -1,6 +1,10 @@
-* {
+h1 {
   color: #02acad;
   font-family:'avenir';
+}
+* {
+  color: grey;
+  font-family: 'avenir';
 }
 h2 {
   color:#ab6800;
