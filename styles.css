@@ -2,8 +2,8 @@ h1 {
   color: #02acad;
   font-family:'avenir';
 }
-* {
-  color: grey;
+p.normal {
+  color: black;
   font-family: 'avenir';
 }
 h2 {
@@ -18,8 +18,28 @@ a, h2 {  height: 40px
     height: 80%;
     overflow: hidden;
 }
+#bodyContent {
+  width: 100%;
+  height: 100%;
+}
 video {
     min-width: 100%;
     overflow: hidden;
     z-index: -1;
+}
+.greydout {
+-webkit-opacity: 0.75;
+-moz-opacity: 0.75;
+opacity: 0.75;
+-webkit-transition: all 3s ease;
+-moz-transition: all 3s ease;
+-ms-transition: all 3s ease;
+-o-transition: all 3s ease;
+transition: all 3s ease;
+}
+:hover
+pseudo-class:greydout:hover {
+-webkit-opacity: 1;
+-moz-opacity: 1;
+opacity: 1;
 }
