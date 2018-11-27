@@ -15,7 +15,6 @@ a, h2 {  height: 40px
     overflow: hidden;
 }
 video {
-    position: inherit;
     min-width: 100%;
     overflow: hidden;
     z-index: -1;
