@@ -27,9 +27,6 @@ video {
     overflow: hidden;
     z-index: -1;
 }
-.price { font-style: oblique;
-}
-
 .greydout {
 -webkit-opacity: 0.75;
 -moz-opacity: 0.75;
