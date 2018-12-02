@@ -16,7 +16,7 @@
 
   li {
       float: left;
-          width: 20%;
+      width: 20%;
   }
 
   li a {
@@ -27,8 +27,15 @@
       text-decoration: none;
   }
 
-  li a.active {
+  li a:hover:not(.active) {
       background-color: #ddd;
+          color: #2aa2a2;
+  }
+
+  li a.active {
+      color: #2aa2a2;
+      background-color: #f2f2f2;
+    }
 
 
 </style>

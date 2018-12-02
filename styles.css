@@ -56,28 +56,11 @@ opacity: 1;
 
 .container{
   background-color: #f9f9f9;
+}
 
-.navbar{
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      border: 1px solid #ffffff;
-      background-color: #ffffff;
-  }
-
-.li {
-      float: left;
-          width: 20%;
-  }
-
-.li a {
-      display: block;
-      color: #666;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-  }
-
-.li a.active {
-      background-color: #ddd;
+h5{
+color: #f9f9f9;
+}
+.card-title {
+  color:  #f9f9f9;
+}
