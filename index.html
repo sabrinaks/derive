@@ -1,13 +1,346 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Dérive</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130423071-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130423071-1');
+</script>
+
+  <title>D&eacute;rive</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--link to css-->
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--searchbar-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <style>
+
+body{
+  background-color: #f2f2f2;
+}
+  .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 900px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+  background: #f2f2f2;
+  color: white;
+  width:600px;
+  height:300px;
+}
+h1{
+color: #f2f2f2;
+font-family:"avenir";
+    }
+    h2{
+      color: black;
+      font-family:"avenir";
+    }
+    h3{
+      color: black;
+      font-family:"avenir";
+      font-size: 22px;
+    }
+    ul{
+    text-decoration: none;
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      border: 1px solid #ffffff;
+      background-color: #ffffff;
+  }
+
+  li {
+      float: left;
+      width: 20%;
+  }
+
+  li a {
+      display: block;
+      color: #666;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+      background-color: #ddd;
+        color: #2aa2a2;
+  }
+
+  li a.active {
+      color: #2aa2a2;
+      background-color: #f2f2f2;
+  }
+
+  body {
+      position: relative;
+  }
+  .affix {
+      top: 20px;
+
+      z-index: 9999 !important;
+  }
+  div.col-sm-9 div {
+      height: 500px;
+      font-size: 28px;
+      width: 900px;
+  }
+  #section1 {color: #f2f2f2; background-color: #f2f2f2;height:500px;}
+  #section2 {color: #f2f2f2; background-color: #2aa2a2;height:300px;}
+  #section3 {color: #f2f2f2; background-color: #f2f2f2;height:300px;}
+  #section41 {color: #f2f2f2; background-color: #2aa2a2;height:300px;}
+  #section42 {color: #f2f2f2; background-color: #f2f2f2;height:300px;}
+
+  @media screen and (max-width: 900px) {
+    #section1, #section2, #section3, #section41, #section42  {
+        margin-left: 100px;
+    }
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+}
+.carousel{
+  width: 600px;
+}
+
+.instagram{
+  height:200px;
+  width:800px;
+}
+<!--search-->
+* {box-sizing: border-box;}
+
+body {
+  margin: 10;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.topnav {
+  overflow:hidden;
+  background-color: #f2f2f2;
+
+}
+
+
+.topnav .search-container {
+  float: right;
+
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+
+}
+
+
+
+
+}
+.fa{
+width:20px;
+height:5px;}
+
+.white{
+  color: #2aa2a2;
+}
+.search-container{
+  height: 50px;
+}
+
+a{
+  width:100px;
+}
+  </style>
 </head>
-<body>
 
-<h1>heading</h1>
 
-<h2> heading </h2>
+
+
+
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
+
+<div class="container-fluid" style="background-color:white;color:#fff;height:50px;">
+  <!--navbar-->
+      <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="patagonia.html">Patagonia</a> </li>
+    <li><a href="amazon.html">Amazon</a></li>
+    <li><a href="galapagos.html">Galapagos</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+</div>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <nav class="col-sm-3" id="myScrollspy">
+      <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="505">
+        <li><a href="#section1">Pictures</a></li>
+        <li><a href="#section2">Patagonia</a></li>
+        <li><a href="#section3">Amazon</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Galapagos <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#section41">Adventures</a></li>
+
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="col-sm-9">
+      <div id="section1">
+
+        <div class="container">
+
+          <div id="myCarousel" class="carousel slide">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li class="item1 active"></li>
+              <li class="item2"></li>
+              <li class="item3"></li>
+              <li class="item4"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="pantagonia.jpg" alt="Chania" width="360" height="245">
+              </div>
+
+              <div class="item">
+                <img src="2.jpg" alt="Chania" width="360" height="245">
+              </div>
+
+              <div class="item">
+                <img src="3.jpg" alt="Flower" width="360" height="245">
+              </div>
+
+              <div class="item">
+                <img src="4.jpg" alt="Flower" width="360" height="245">
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+        <script>
+        $(document).ready(function(){
+            // Activate Carousel
+            $("#myCarousel").carousel({interval: 500, pause: "hover"});
+
+            // Enable Carousel Indicators
+            $(".item1").click(function(){
+                $("#myCarousel").carousel(0);
+            });
+            $(".item2").click(function(){
+                $("#myCarousel").carousel(1);
+            });
+            $(".item3").click(function(){
+                $("#myCarousel").carousel(2);
+            });
+            $(".item4").click(function(){
+                $("#myCarousel").carousel(3);
+            });
+
+            // Enable Carousel Controls
+            $(".left").click(function(){
+                $("#myCarousel").carousel("prev");
+            });
+            $(".right").click(function(){
+                $("#myCarousel").carousel("next");
+            });
+        });
+        </script>
+
+      </div>
+      <div id="section2">
+        <h1><b>Things to do in Patagonia</b></h1>
+<h2><b> Whale-watch in Puerto Madryn </b></h2>
+<h3>Patagonia offers some of the world's best whale-watching and Puerto Madryn is the place to glimpse them.
+  Its warm, more enclosed waters along the Golfo Nuevo, Golfo San José and the coastline near Caleta
+  A standard whale-watching trip lasts an hour and a half, but longer excursions are available too.
+</h3>
+         <h4 class="card-title"> <a href="patagonia.html">Read more</a> </h4>
+
+
+      </div>
+      <div id="section3">
+          <h1 class="white"> <b>Things to do in Amazon</b></h1>
+          <h2><b>Jungle walk</b></h2>
+          <h3>A jungle walk through the Amazon rainforest is wonderful experience where you'll not only see the
+<br>Amazon's unique wildlife, but also learn about the various medicinal plants that have been used for decades.
+On the ground look out for anaconda snakes, tarantulas, poison dart frogs, rubber trees and pineapple flowers.
+
+        </h3>
+        <h4 class="card-title"> <a href="amazon.html"> Read more </a> </h4>
+      </div>
+
+
+      <div id="section41">
+        <h1><b> Thing to do in Galapagos</b></h1>
+        <h2><b>Visit Tortuga beach</b></h2>
+        <h3>Outdoorsy types don't flock to these two white sand beaches simply to bake in the warm equatorial sun. Travelers visit this isolated strip of Santa Cruz Island's southern coastline for some quality face time with the Galápagos' marine turtles. If you visit between January and February, you may even catch sight of the black turtles laying their eggs (hatchlings emerge and make their way to the sea between April and May). Even if you're not a turtle-lover, you can still get up close  </h3>
+<h4 class="card-title"> <a href="galapagos.html"> Read more</a></h4>
+
+      </div>
+
+
+      <div id="section42">
+        <h1 class="white"><b>Follow us on instagram</b></h1>
+
+        <a href="#" class="fa fa-instagram">
+<img class="instagram" src="6.jpg" alt="Card image cap">
+        </a>
+
+      </div>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
