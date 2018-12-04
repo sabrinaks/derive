@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" type="text/css" href="styles.css"/>
+  <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
 <link rel="icon" href="images/logo.png">
   <!---navbar--->
   <style>
@@ -47,5 +48,18 @@ li a.active {
     <li><a href="galapagos.html">Galapagos</a></li>
     <li><a class="active" href="contact.html">Contact</a></li>
   </ul>
+<!---form--->
+  <form class="submit-student-form" action="submit_student_form.php" method="post">
+    <h1 class="form-title">Contact us.</h1>
+    <label>Name</label>
+    <input type="text" name="first_name" required>
+    <label>Email</label>
+    <input type="email" name="email" required>
+    <label>Contact Number</label>
+    <input type='tel' name="telephone" required>
+    <label>Inquiry</label>
+    <input type="textarea" rows="5" cols="30" required>
+    <button type="submit">Submit</button>
+  </form>
 </body>
 </html>
